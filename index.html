@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,13 +17,17 @@
             width: 100vw;
             display: grid;
             grid-template-columns: 150px 1fr 150px;
-            grid-template-rows: 60px 1fr;
-            grid-template-areas: 
+            grid-template-rows: 80px 1fr;
+            grid-template-areas:
                 "cabecalho cabecalho cabecalho"
                 "navegacao conteudo navegacao2";
         }
 
         header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
             border: 2px solid red;
             grid-area: cabecalho;
         }
@@ -30,6 +35,10 @@
         main {
             border: 2px solid purple;
             grid-area: conteudo;
+            background-color: red;
+
+            display: flex;
+            justify-content: center;
         }
 
         nav {
@@ -37,16 +46,91 @@
             grid-area: navegacao;
         }
 
-        div {
+        .nav2 {
             border: 2px solid pink;
             grid-area: navegacao2;
         }
+
+        .icons {
+            margin-right: 30px;
+        }
+
+        .post {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            height: 550px;
+            width: 550px;
+
+            border: 2px solid black;
+
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+
+            border: 2px solid black;
+            border-radius: 100%;
+        }
+
+        .up {
+            display: flex;
+            align-items: center;
+
+            width: 400px;
+            height: 50px;
+        }
+
+        .image {
+            width: 400px;
+            height: 400px;
+
+            border: 2px solid black;
+        }
+
+        .buttons {
+            width: 400px;
+            height: 30px;
+
+            border: 2px solid black;
+        }
     </style>
 </head>
+
 <body>
-    <header class="1">HEADER</header>
-    <main class="2">MAIN</main>
+    <!--
+        stories: opcional
+
+        authentication: bcrypt
+        home-page
+
+        database:
+
+    -->
+    <header class="1">
+        <div>Instagram</div>
+        <div>Buscar</div>
+        <div class="icons">Icones</div>
+    </header>
+    <main class="2">
+        <div class="post">
+            <div class="up">
+                <div class="icon"></div>
+                <div class="name">MATHEUS</div>
+            </div>
+            <div class="image"></div>
+            <div class="buttons">
+                <div class="like"></div>
+                <div class="comment"></div>
+                <div class="share"></div>
+            </div>
+        </div>
+    </main>
     <nav class="3">NAV</nav>
-    <div class="3">NAV</div>
+    <div class="nav">NAV</div>
 </body>
+
 </html>
