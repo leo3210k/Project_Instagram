@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: 150px 1fr 150px;
+            grid-template-rows: 60px 1fr;
+            grid-template-areas: 
+                "cabecalho cabecalho cabecalho"
+                "navegacao conteudo navegacao2";
+        }
+
+        header {
+            border: 2px solid red;
+            grid-area: cabecalho;
+        }
+
+        main {
+            border: 2px solid purple;
+            grid-area: conteudo;
+        }
+
+        nav {
+            border: 2px solid green;
+            grid-area: navegacao;
+        }
+
+        div {
+            border: 2px solid pink;
+            grid-area: navegacao2;
+        }
+    </style>
+</head>
+<body>
+    <header class="1">HEADER</header>
+    <main class="2">MAIN</main>
+    <nav class="3">NAV</nav>
+    <div class="3">NAV</div>
+</body>
+</html>
