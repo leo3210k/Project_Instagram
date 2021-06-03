@@ -1,0 +1,13 @@
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #fffefe;
+    border: 1px solid #dadbda;
+    grid-area: header;
+}
+
+.icons {
+    font-size: 30px;
+}
