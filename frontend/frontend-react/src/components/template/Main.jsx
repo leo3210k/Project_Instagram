@@ -51,7 +51,7 @@ export default class Main extends Component {
                                                 className="icons fa fa-heart"></i>
                                             <i className="icons fa fa-comment"></i>
                                             <i className="fa fa-paper-plane"></i>
-                                            <i className="fa fa-smile-wink"></i>
+                                            <i class="fa fa-smile-wink"></i>
                                         </div>
                                         <div>
                                             <i className="icons fa fa-bookmark"></i>
@@ -67,4 +67,4 @@ export default class Main extends Component {
             </main>
         )
     }
-}
+} 
