@@ -1,4 +1,7 @@
 header.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -10,4 +13,17 @@ header.header {
 
 .icons {
     font-size: 30px;
+}
+
+.notifications {
+    position: absolute;
+    top: 30px;
+
+    color: white;
+    background-color: #fe004f;
+    font-size: 10px;
+}
+
+.red {
+    color: red;
 }
