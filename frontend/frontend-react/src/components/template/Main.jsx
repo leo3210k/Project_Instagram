@@ -3,22 +3,22 @@ import React, { Component } from 'react'
 
 const items = [
     {
-        name: "Quêmia",
+        name: "Matheus",
         photo: "https://i1.wp.com/www.toppapeldeparede.com.br/wp-content/uploads/2021/04/Cute-Kimetsu-no-Yaiba-Wallpapers-for.png?fit=996%2C1600&ssl=1",
         photoName: "Naruto"
     },
     {
-        name: "Quêmia",
+        name: "Matheus",
         photo: "https://i.pinimg.com/originals/8e/bc/45/8ebc456519f2df51cece20f89d5856c7.jpg",
         photoName: "Naruto"
     },
     {
-        name: "Quêmia",
+        name: "Matheus",
         photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyaOfMjrUR-MIBf2nTv_qBWZrTt6rtw5jr_w&usqp=CAU",
         photoName: "Naruto"
     },
     {
-        name: "Quêmia",
+        name: "Matheus",
         photo: "https://wallpaperwaifu.com/wp-content/uploads/2019/09/kochou-shinobu-kimetsu-no-yaiba-thumb-1500x844.jpg",
         photoName: "Naruto"
     }
