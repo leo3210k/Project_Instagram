@@ -2,13 +2,9 @@ div.content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     grid-area: content;
     background-color: #dadbda;
-}
-
-.icons {
-    margin-right: 30px;
 }
 
 .post {
@@ -19,6 +15,10 @@ div.content {
     border-radius: 4px;
     background-color: #fffefe;
     border: 1.5px solid #dadbda;
+}
+
+.icons-main{
+    font-size: 30px;
 }
 
 .icon {
@@ -53,10 +53,20 @@ div.content {
     justify-content: space-between;
 }
 
+.buttons-heart{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
 ul {
     list-style: none;
 }
 
 .fa-paper-plane {
     font-size: 25px;
+}
+
+.red{
+    color: #cf0e0e;
 }

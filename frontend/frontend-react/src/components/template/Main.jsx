@@ -47,14 +47,15 @@ export default class Main extends Component {
                                         className="img-fluid shadow-lg" />
                                     <div className="buttons my-3">
                                         <div className="pl-4">
-                                            <i onClick={(e) => this.handle(e)} 
-                                                className="icons fa fa-heart"></i>
-                                            <i className="icons fa fa-comment"></i>
-                                            <i className="fa fa-paper-plane"></i>
-                                            <i class="fa fa-smile-wink"></i>
+                                            <button onClick={this.handle} className="buttons-heart mr-4">
+                                                <i className="icons-main fa fa-heart"/>
+                                            </button>
+                                            <i className="icons-main fa fa-comment mr-4"/>
+                                            <i className="fa fa-paper-plane mr-4"/>
+                                            <i className="fa fa-smile-wink mr-4"/>
                                         </div>
                                         <div>
-                                            <i className="icons fa fa-bookmark"></i>
+                                            <i className="icons-main fa fa-bookmark mr-4"/>
                                         </div>
                                     </div>
                                     <div>
@@ -67,4 +68,4 @@ export default class Main extends Component {
             </main>
         )
     }
-} 
+}
