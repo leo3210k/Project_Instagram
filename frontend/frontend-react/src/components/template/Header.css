@@ -1,5 +1,4 @@
 header.header {
-    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     display: flex;
@@ -11,8 +10,9 @@ header.header {
     grid-area: header;
 }
 
-.icons {
+.icons-header{
     font-size: 30px;
+    margin-right: 30px;
 }
 
 .notifications {

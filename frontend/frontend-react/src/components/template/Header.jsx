@@ -11,17 +11,22 @@ export default class Main extends Component {
             <header className="header">
                 <div className="h2 font-weight-bold">Instagram</div>
                 <div className="input-group col-3">
-                    <span className="input-group-text"><i className="fa fa-search"></i></span>
+                    <span className="input-group-text">
+                        <i className="fa fa-search"/>
+                    </span>
                     <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder={`Buscar`}></input>
+                        placeholder={`Buscar`}>  
+                    </input>
                 </div>
                 <div>
-                    <i className="icons fa fa-home"></i>
-                    <i className="icons fa fa-comments">
+                    <i className="icons-header fa fa-home"/>
+                    <i className="icons-header fa fa-comments">
                         <div className="notifications badge">2</div>
                     </i>
-                    <i className="icons fa fa-compass"></i>
-                    <i onClick={(e) => this.handle(e)} className="icons fa fa-heart px-1"></i>
+                    <i className="icons-header fa fa-compass"/>
+                    <button onClick={this.handle}>
+                        <i className="icons-header fa fa-heart px-1"/>
+                    </button>
                 </div>
             </header>
         )
