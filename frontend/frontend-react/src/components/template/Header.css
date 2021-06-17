@@ -10,12 +10,12 @@ header.header {
     grid-area: header;
 }
 
-.icons-header{
+.header__icons{
     font-size: 30px;
     margin-right: 30px;
 }
 
-.notifications {
+.header__notifications {
     position: absolute;
     top: 30px;
 

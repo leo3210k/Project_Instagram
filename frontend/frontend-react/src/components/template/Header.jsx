@@ -19,13 +19,13 @@ export default class Main extends Component {
                     </input>
                 </div>
                 <div>
-                    <i className="icons-header fa fa-home"/>
-                    <i className="icons-header fa fa-comments">
-                        <div className="notifications badge">2</div>
+                    <i className="header__icons fa fa-home"/>
+                    <i className="header__icons fa fa-comments">
+                        <div className="header__notifications badge">2</div>
                     </i>
-                    <i className="icons-header fa fa-compass"/>
+                    <i className="header__icons fa fa-compass"/>
                     <button onClick={this.handle}>
-                        <i className="icons-header fa fa-heart px-1"/>
+                        <i className="header__icons fa fa-heart px-1"/>
                     </button>
                 </div>
             </header>
