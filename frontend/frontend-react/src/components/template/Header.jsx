@@ -2,10 +2,6 @@ import './Header.css'
 import React, { Component } from 'react'
 
 export default class Main extends Component {
-    handle = (e) => {
-        e.target.classList.toggle("red");
-    }  
-
     render() {  
         return (
             <header className="header">
@@ -24,9 +20,7 @@ export default class Main extends Component {
                         <div className="header__notifications badge">2</div>
                     </i>
                     <i className="header__icons fa fa-compass"/>
-                    <button onClick={this.handle}>
-                        <i className="header__icons fa fa-heart px-1"/>
-                    </button>
+                    <i className="header__icons fa fa-heart px-1"/>
                 </div>
             </header>
         )
