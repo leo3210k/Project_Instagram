@@ -40,8 +40,8 @@ export default class Main extends Component {
                             <li key={i}>
                                 <div className="post mt-4">
                                     <div className="up ml-3 my-3">
-                                        <div className="icon"></div>
-                                        <div className="name ml-3">{post.name}</div>
+                                        <div className="up__icon"></div>
+                                        <div className="up__name ml-3">{post.name}</div>
                                     </div>
                                     <img src={post.photo} alt={post.photoName}
                                         className="img-fluid shadow-lg" />
